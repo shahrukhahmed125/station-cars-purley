@@ -470,15 +470,19 @@ document.addEventListener('DOMContentLoaded', () => {
     btn.addEventListener('click', (e) => {
       e.preventDefault();
       const text = encodeURIComponent('Hello Station Cars Purley, I would like to enquire about a minicab booking.');
-      window.open(`https://wa.me/442086606000?text=${text}`, '_blank');
+      window.open(`https://wa.me/447340985787?text=${text}`, '_blank');
       showToast('Opening WhatsApp to message Station Cars Purley...');
     });
   });
 
   document.querySelectorAll('.action-book-online-btn, .btn-bottom-book').forEach(btn => {
     btn.addEventListener('click', (e) => {
-      e.preventDefault();
-      openModal(bookingModal);
+      // Only prevent default and open modal if it's a button, not an anchor tag
+      if (btn.tagName === 'BUTTON') {
+        e.preventDefault();
+        openModal(bookingModal);
+      }
+      // If it's an anchor tag, let it navigate naturally
     });
   });
 

@@ -1696,12 +1696,15 @@ button, input, select, textarea {
   justify-content: space-between;
   font-size: 14px; /* Enlarged font */
   color: #8BA8C2;
+  flex-wrap: wrap;
+  gap: 16px;
 }
 
 .footer-nav {
   display: flex;
   align-items: center;
   gap: 20px;
+  flex-wrap: wrap;
 }
 
 .footer-link {
@@ -1709,10 +1712,25 @@ button, input, select, textarea {
   font-size: 14px;
   transition: var(--transition);
   position: relative;
+  white-space: nowrap;
 }
 
 .footer-link:hover {
   color: var(--color-yellow);
+}
+
+.footer-whatsapp-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  white-space: nowrap;
+}
+
+.footer-whatsapp-link:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(22, 185, 92, 0.4);
 }
 
 /* ==========================================================================
@@ -2129,6 +2147,12 @@ button, input, select, textarea {
     flex-wrap: wrap;
     justify-content: center;
     gap: 12px;
+  }
+
+  .footer-whatsapp-link {
+    justify-content: center;
+    width: 100%;
+    max-width: 280px;
   }
 }
 
