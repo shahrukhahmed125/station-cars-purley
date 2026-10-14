@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Our Fleet | Station Cars Purley - Saloons, Executive &amp; MPVs</title>
+  <meta name="description" content="Explore our pristine minicab &amp; chauffeur fleet at Station Cars Purley: Saloons, Executive BMW &amp; Mercedes, 6-7 MPVs, 8-seater minibuses and hybrids." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+
+  <!-- Site Preloader with Animated Luxury Car -->
+  <div class="site-preloader" id="sitePreloader">
+    <div class="preloader-inner">
+      <div class="preloader-car-wrap">
+        <svg class="preloader-car-svg" viewBox="0 0 160 52" fill="none">
+          <path d="M10 34 L25 34 C28 24, 45 12, 70 12 C95 12, 115 18, 132 26 L144 30 C150 33, 154 37, 150 41 C146 43, 138 43, 132 43 L120 43 C118 37, 108 37, 105 43 L55 43 C52 37, 42 37, 39 43 L14 43 C8 43, 4 39, 6 36 Z" fill="#FFD400"/>
+          <path d="M48 24 L68 15 L95 15 L108 24 Z" fill="#041D34" opacity="0.85"/>
+          <circle cx="47" cy="42" r="7" fill="#041D34" stroke="#FFD400" stroke-width="3"/>
+          <circle cx="112" cy="42" r="7" fill="#041D34" stroke="#FFD400" stroke-width="3"/>
+          <circle cx="146" cy="35" r="2.5" fill="#FFFFFF"/>
+        </svg>
+        <div class="preloader-road"></div>
+      </div>
+      <div class="preloader-brand">
+        <span class="preloader-title">STATION CARS</span>
+        <span class="preloader-subtitle">PURLEY</span>
+      </div>
+      <div class="preloader-bar">
+        <div class="preloader-progress"></div>
+      </div>
+      <div class="preloader-status">Loading Fleet Catalog...</div>
+    </div>
+  </div>
+
+  <!-- Interactive Custom Cursor with Business Car -->
+  <div class="custom-cursor-dot" id="cursorDot"></div>
+  <div class="custom-cursor-ring" id="cursorRing"></div>
+  <div class="custom-cursor-car" id="cursorCar">
+    <svg class="cursor-car-svg" viewBox="0 0 46 22" fill="none">
+      <path d="M3 14 L8 14 C10 10, 16 5, 23 5 C30 5, 36 8, 40 11 L43 13 C45 14, 45.5 16, 44 17.5 C42.5 18.5, 39.5 18.5, 38 18.5 L35 18.5 C34 16, 30.5 16, 29.5 18.5 L15 18.5 C14 16, 10.5 16, 9.5 18.5 L4 18.5 C2.5 18.5, 1.5 17, 2 15.5 Z" fill="#FFD400"/>
+      <circle cx="12" cy="18" r="3" fill="#041D34" stroke="#FFD400" stroke-width="1.5"/>
+      <circle cx="32" cy="18" r="3" fill="#041D34" stroke="#FFD400" stroke-width="1.5"/>
+    </svg>
+  </div>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="header-container">
+      
+      <!-- Brand Logo -->
+      <a href="/" class="logo" aria-label="Station Cars Purley Homepage">
+        <svg class="logo-svg" viewBox="0 0 240 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M70 16 C85 6, 120 4, 155 7 C168 8, 180 12, 192 16" stroke="#FFD400" stroke-width="3" stroke-linecap="round"/>
+          <circle cx="82" cy="18" r="2.5" fill="#FFD400"/>
+          <circle cx="178" cy="18" r="2.5" fill="#FFD400"/>
+          <text x="120" y="36" fill="#FFFFFF" font-family="'Inter', -apple-system, sans-serif" font-size="20" font-weight="800" text-anchor="middle" letter-spacing="1.2">STATION CARS</text>
+          <line x1="38" y1="46" x2="88" y2="46" stroke="#FFD400" stroke-width="2"/>
+          <text x="120" y="50" fill="#FFD400" font-family="'Inter', -apple-system, sans-serif" font-size="12" font-weight="800" text-anchor="middle" letter-spacing="2.5">PURLEY</text>
+          <line x1="152" y1="46" x2="202" y2="46" stroke="#FFD400" stroke-width="2"/>
+        </svg>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav class="header-nav">
+        <a href="/" class="nav-link">Home</a>
+        <a href="/about.html" class="nav-link">About Us</a>
+        <a href="/fleet.html" class="nav-link active">Our Fleet</a>
+        <a href="/airport-transfers.html" class="nav-link">Airport Transfers</a>
+        <a href="/services.html" class="nav-link">Services</a>
+        <a href="/contact.html" class="nav-link">Contact</a>
+      </nav>
+
+      <!-- Header Action CTAs -->
+      <div class="header-actions">
+        <button type="button" class="btn-whatsapp-header" aria-label="WhatsApp Us">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12.031 2C6.495 2 2 6.495 2 12.031c0 1.996.586 3.864 1.6 5.44L2 22l4.673-1.545a9.98 9.98 0 0 0 5.358 1.576h.004c5.536 0 10.031-4.495 10.031-10.031 0-2.678-1.042-5.197-2.935-7.09A9.96 9.96 0 0 0 12.031 2zm5.836 14.185c-.244.686-1.42 1.32-1.956 1.398-.518.077-1.185.11-3.418-.809-2.73-1.127-4.495-3.921-4.632-4.103-.136-.182-1.107-1.472-1.107-2.806 0-1.334.698-1.99 1.002-2.302.245-.252.54-.316.721-.316.182 0 .363.003.522.012.167.009.39-.064.609.462.227.545.77 1.884.838 2.02.068.136.113.296.023.477-.09.182-.136.296-.272.454-.136.159-.286.355-.408.477-.136.136-.278.283-.12.554.159.272.704 1.159 1.51 1.877 1.037.925 1.912 1.212 2.184 1.348.272.136.431.113.59-.068.16-.182.68-0.795.862-1.067.182-.272.363-.227.613-.136.25.091 1.587.748 1.86 1.884.272.136.454.204.522.318.068.113.068.657-.176 1.343z"/>
+          </svg>
+          <span>WhatsApp Us</span>
+        </button>
+
+        <a href="tel:02086606000" class="btn-phone-header" aria-label="Call 020 8660 6000">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+          </svg>
+          <span>020 8660 6000</span>
+        </a>
+      </div>
+
+      <!-- Mobile Menu Toggle Button -->
+      <button type="button" class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle navigation menu">
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </button>
+
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Drawer -->
+  <div class="modal-backdrop" id="drawerBackdrop"></div>
+  <aside class="mobile-nav-drawer" id="mobileNavDrawer" aria-label="Mobile Navigation">
+    <div class="mobile-drawer-header">
+      <div style="display:flex; align-items:center; gap:8px;">
+        <span style="color:#FFD400; font-weight:800; font-size:16px; letter-spacing:1px;">STATION CARS</span>
+        <span style="color:#FFFFFF; font-size:11px; background:rgba(255,255,255,0.15); padding:2px 6px; border-radius:4px; font-weight:700;">PURLEY</span>
+      </div>
+      <button type="button" class="mobile-drawer-close-btn" id="drawerClose" aria-label="Close menu">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+    <div class="mobile-drawer-links">
+      <a href="/" class="mobile-drawer-link"><span>Home</span><span class="link-arrow">&rarr;</span></a>
+      <a href="/about.html" class="mobile-drawer-link"><span>About Us</span><span class="link-arrow">&rarr;</span></a>
+      <a href="/fleet.html" class="mobile-drawer-link active"><span>Our Fleet</span><span class="link-arrow">&rarr;</span></a>
+      <a href="/airport-transfers.html" class="mobile-drawer-link"><span>Airport Transfers</span><span class="link-arrow">&rarr;</span></a>
+      <a href="/services.html" class="mobile-drawer-link"><span>Services</span><span class="link-arrow">&rarr;</span></a>
+      <a href="/contact.html" class="mobile-drawer-link"><span>Contact</span><span class="link-arrow">&rarr;</span></a>
+    </div>
+    <div class="mobile-drawer-actions">
+      <a href="tel:02086606000" class="btn-cta btn-cta-navy" style="width:100%; justify-content:center;">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+        020 8660 6000
+      </a>
+      <button type="button" class="btn-cta btn-cta-green action-whatsapp-btn" style="width:100%; justify-content:center;">
+        WhatsApp Us
+      </button>
+    </div>
+  </aside>
+
+  <!-- Page Hero Header -->
+  <section class="page-hero-banner">
+    <div class="container">
+      <div class="page-hero-breadcrumbs">
+        <a href="/">Home</a>
+        <span>/</span>
+        <span style="color:#FFD400;">Our Fleet</span>
+      </div>
+      <h1 class="page-hero-title">Our Luxury Vehicle Fleet</h1>
+      <p class="page-hero-subtitle">High-end saloons, executive Mercedes-Benz &amp; BMW, spacious MPVs and 8-seater group minibuses.</p>
+    </div>
+  </section>
+
+  <!-- Fleet Showcase -->
+  <main class="page-content-wrapper">
+    <div class="container">
+      
+      <!-- Intro Notice -->
+      <div style="background:#FFFFFF; border:1px solid #D6E4F0; border-left:4px solid #FFD400; border-radius:12px; padding:18px 24px; margin-bottom:40px; display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:16px;">
+        <div>
+          <div style="font-weight:700; color:var(--color-navy); font-size:16px;">All Vehicles Fully Sanitised &amp; Inspected</div>
+          <!-- <div style="font-size:14px; color:var(--color-text-muted);">Child seats, booster cushions, and wheelchair assistance available upon advance request.</div> -->
+        </div>
+        <button type="button" class="btn-cta btn-cta-yellow action-book-online-btn" style="padding:10px 22px;">
+          Book A Vehicle Online
+        </button>
+      </div>
+
+      <!-- Fleet Detailed Grid -->
+      <div style="display:flex; flex-direction:column; gap:36px;">
+        
+        <!-- 1. Saloon Cars -->
+        <div style="background:#FFFFFF; border:1.5px solid #DCE6EE; border-radius:20px; overflow:hidden; box-shadow:0 8px 30px rgba(6,52,91,0.06); display:grid; grid-template-columns:360px 1fr; transition:transform 0.3s ease;">
+          <div style="background:linear-gradient(180deg, #EBF3F9, #F5F9FD); display:flex; align-items:center; justify-content:center; padding:20px;">
+            <img src="/assets/images/fleet_saloon.jpg" alt="Saloon Car" style="max-width:100%; height:auto; filter:drop-shadow(0 10px 20px rgba(0,0,0,0.18)); border-radius:8px;" />
+          </div>
+          <div style="padding:32px; display:flex; flex-direction:column; justify-content:space-between;">
+            <div>
+              <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:10px;">
+                <h2 style="font-size:26px; font-weight:800; color:var(--color-navy); margin:0;">Saloon Cars</h2>
+                <span style="background:#EBF3F9; color:#073B66; font-size:12px; font-weight:800; padding:4px 10px; border-radius:6px;">MOST POPULAR</span>
+              </div>
+              <p style="color:#5B7286; font-size:14.5px; line-height:1.6; margin-bottom:18px;">
+                Our standard saloons (Mercedes C-Class, VW Passat, Toyota) deliver exceptional comfort and reliability for solo business commuters, couples, and swift London airport departures.
+              </p>
+              <div style="display:flex; gap:20px; flex-wrap:wrap; margin-bottom:20px;">
+                <div style="display:flex; align-items:center; gap:8px; font-size:13.5px; color:#06345B; font-weight:700;">
+                  <span>👥 Up to 4 Passengers</span>
+                </div>
+                <div style="display:flex; align-items:center; gap:8px; font-size:13.5px; color:#06345B; font-weight:700;">
+                  <span>⚖️ 23 Kg</span>
+                </div>
+                <div style="display:flex; align-items:center; gap:8px; font-size:13.5px; color:#06345B; font-weight:700;">
+                  <span>💼  2 Large Cases </span>
+                </div>
+              </div>
+              <div style="display:flex; gap:12px; flex-wrap:wrap; font-size:13px; color:#4B647A;">
+                <span>&#10003; Dual Climate Control</span> &bull; 
+                <span>&#10003; Flight Radar Tracking</span> &bull; 
+                <span>&#10003; Phone Chargers Onboard</span>
+              </div>
+            </div>
+            <div style="margin-top:24px; padding-top:20px; border-top:1px solid #EDF3F8; display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:16px;">
+              <div>
+                <span style="font-size:12px; color:#5B7286; font-weight:600;">Gatwick Transfers From</span>
+                <!-- <div style="font-size:26px; font-weight:800; color:#073B66;">£36.00 <span style="font-size:14px; font-weight:500; color:#5B7286;">fixed fare</span></div> -->
+              </div>
+              <button type="button" class="btn-cta btn-cta-yellow action-book-online-btn" style="padding:10px 24px;">
+                Select Saloon Car
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2. Executive Cars -->
+        <div style="background:#FFFFFF; border:1.5px solid #DCE6EE; border-radius:20px; overflow:hidden; box-shadow:0 8px 30px rgba(6,52,91,0.06); display:grid; grid-template-columns:360px 1fr; transition:transform 0.3s ease;">
+          <div style="background:linear-gradient(180deg, #EBF3F9, #F5F9FD); display:flex; align-items:center; justify-content:center; padding:20px;">
+            <img src="/assets/images/fleet_executive.jpg" alt="Executive Car" style="max-width:100%; height:auto; filter:drop-shadow(0 10px 20px rgba(0,0,0,0.18)); border-radius:8px;" />
+          </div>
+          <div style="padding:32px; display:flex; flex-direction:column; justify-content:space-between;">
+            <div>
+              <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:10px;">
+                <h2 style="font-size:26px; font-weight:800; color:var(--color-navy); margin:0;"> Estate   / Executive Cars</h2>
+                <span style="background:#073B66; color:#FFD400; font-size:12px; font-weight:800; padding:4px 10px; border-radius:6px;">VIP CHAUFFEUR</span>
+              </div>
+              <p style="color:#5B7286; font-size:14.5px; line-height:1.6; margin-bottom:18px;">
+                Premium German engineering featuring the Mercedes-Benz E-Class &amp; BMW 5-Series. Crafted for executives, corporate delegations, VIP guests, and discerning travelers requiring supreme comfort.
+              </p>
+              <div style="display:flex; gap:20px; flex-wrap:wrap; margin-bottom:20px;">
+                <div style="display:flex; align-items:center; gap:8px; font-size:13.5px; color:#06345B; font-weight:700;">
+                  <span>👥 Up to 4 Passengers</span>
+                </div>
+                <div style="display:flex; align-items:center; gap:8px; font-size:13.5px; color:#06345B; font-weight:700;">
+                  <span>⚖️ 23 Kg</span>
+                </div>
+                <div style="display:flex; align-items:center; gap:8px; font-size:13.5px; color:#06345B; font-weight:700;">
+                  <span>💼 3 Large Cases </span>
+                </div>
+              </div>
+              <div style="display:flex; gap:12px; flex-wrap:wrap; font-size:13px; color:#4B647A;">
+                <span>&#10003; Full Leather Interior</span> &bull; 
+                <span>&#10003; Privacy Glass &amp; Ambient Lighting</span> &bull; 
+                <span>&#10003; Complimentary Mineral Water</span>
+              </div>
+            </div>
+            <div style="margin-top:24px; padding-top:20px; border-top:1px solid #EDF3F8; display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:16px;">
+              <div>
+                <span style="font-size:12px; color:#5B7286; font-weight:600;">Gatwick Transfers From</span>
+                <!-- <div style="font-size:26px; font-weight:800; color:#073B66;">£50.00 <span style="font-size:14px; font-weight:500; color:#5B7286;">fixed fare</span></div> -->
+              </div>
+              <button type="button" class="btn-cta btn-cta-yellow action-book-online-btn" style="padding:10px 24px;">
+                Select Executive Car
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3. 6-7 Seater MPVs -->
+        <div style="background:#FFFFFF; border:1.5px solid #DCE6EE; border-radius:20px; overflow:hidden; box-shadow:0 8px 30px rgba(6,52,91,0.06); display:grid; grid-template-columns:360px 1fr; transition:transform 0.3s ease;">
+          <div style="background:linear-gradient(180deg, #EBF3F9, #F5F9FD); display:flex; align-items:center; justify-content:center; padding:20px;">
+            <img src="/assets/images/fleet_mpv.jpg" alt="7 Seater MPV" style="max-width:100%; height:auto; filter:drop-shadow(0 10px 20px rgba(0,0,0,0.18)); border-radius:8px;" />
+          </div>
+          <div style="padding:32px; display:flex; flex-direction:column; justify-content:space-between;">
+            <div>
+              <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:10px;">
+                <h2 style="font-size:26px; font-weight:800; color:var(--color-navy); margin:0;">Standard MPV</h2>
+                <span style="background:#EDF4FA; color:#073B66; font-size:12px; font-weight:800; padding:4px 10px; border-radius:6px;">FAMILY &amp; LUGGAGE</span>
+              </div>
+              <p style="color:#5B7286; font-size:14.5px; line-height:1.6; margin-bottom:18px;">
+                Ideal for family vacations, overseas trips with heavy baggage, and golf retreats. Offers elevated passenger seating, wide rear access, and configurable cargo space.
+              </p>
+              <div style="display:flex; gap:20px; flex-wrap:wrap; margin-bottom:20px;">
+                <div style="display:flex; align-items:center; gap:8px; font-size:13.5px; color:#06345B; font-weight:700;">
+                  <span>👥 Up to 4–5 Passengers</span>
+                </div>
+                <div style="display:flex; align-items:center; gap:8px; font-size:13.5px; color:#06345B; font-weight:700;">
+                  <span>⚖️ 23 Kg</span>
+                </div>
+                <div style="display:flex; align-items:center; gap:8px; font-size:13.5px; color:#06345B; font-weight:700;">
+                  <span>💼 4 Large Cases</span>
+                </div>
+              </div>
+              <div style="display:flex; gap:12px; flex-wrap:wrap; font-size:13px; color:#4B647A;">
+                <span>&#10003; High Headroom &amp; Legroom</span> &bull; 
+                <span>&#10003; ISOFIX Child Seat Mounts</span> &bull; 
+                <span>&#10003; Sliding Passenger Doors</span>
+              </div>
+            </div>
+            <div style="margin-top:24px; padding-top:20px; border-top:1px solid #EDF3F8; display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:16px;">
+              <div>
+                <span style="font-size:12px; color:#5B7286; font-weight:600;">Gatwick Transfers From</span>
+                <!-- <div style="font-size:26px; font-weight:800; color:#073B66;">£55.00 <span style="font-size:14px; font-weight:500; color:#5B7286;">fixed fare</span></div> -->
+              </div>
+              <button type="button" class="btn-cta btn-cta-yellow action-book-online-btn" style="padding:10px 24px;">
+                Select 6–7 MPV
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4. 8 Seater Minibuses -->
+        <div style="background:#FFFFFF; border:1.5px solid #DCE6EE; border-radius:20px; overflow:hidden; box-shadow:0 8px 30px rgba(6,52,91,0.06); display:grid; grid-template-columns:360px 1fr; transition:transform 0.3s ease;">
+          <div style="background:linear-gradient(180deg, #EBF3F9, #F5F9FD); display:flex; align-items:center; justify-content:center; padding:20px;">
+            <img src="/assets/images/fleet_minibus.jpg" alt="8 Seater Minibus" style="max-width:100%; height:auto; filter:drop-shadow(0 10px 20px rgba(0,0,0,0.18)); border-radius:8px;" />
+          </div>
+          <div style="padding:32px; display:flex; flex-direction:column; justify-content:space-between;">
+            <div>
+              <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:10px;">
+                <h2 style="font-size:26px; font-weight:800; color:var(--color-navy); margin:0;">8 Seater Minibuses</h2>
+                <span style="background:#041D34; color:#FFFFFF; font-size:12px; font-weight:800; padding:4px 10px; border-radius:6px;">GROUP TRAVEL</span>
+              </div>
+              <p style="color:#5B7286; font-size:14.5px; line-height:1.6; margin-bottom:18px;">
+                The ultimate solution for extended parties, corporate conferences, and international airport groups. Cavernous luggage capacity ensures zero bags inside the passenger cabin.
+              </p>
+              <div style="display:flex; gap:20px; flex-wrap:wrap; margin-bottom:20px;">
+                <div style="display:flex; align-items:center; gap:8px; font-size:13.5px; color:#06345B; font-weight:700;">
+                  <span>👥 Up to 8 Passengers</span>
+                </div>
+                <div style="display:flex; align-items:center; gap:8px; font-size:13.5px; color:#06345B; font-weight:700;">
+                  <span>⚖️ 23 Kg</span>
+                </div>
+                <div style="display:flex; align-items:center; gap:8px; font-size:13.5px; color:#06345B; font-weight:700;">
+                  <span>💼 8 Large Cases</span>
+                </div>
+              </div>
+              <div style="display:flex; gap:12px; flex-wrap:wrap; font-size:13px; color:#4B647A;">
+                <span>&#10003; Extended Cargo Hold</span> &bull; 
+                <span>&#10003; Independent Rear AC</span> &bull; 
+                <span>&#10003; Privacy Windows</span>
+              </div>
+            </div>
+            <div style="margin-top:24px; padding-top:20px; border-top:1px solid #EDF3F8; display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:16px;">
+              <div>
+                <span style="font-size:12px; color:#5B7286; font-weight:600;">Gatwick Transfers From</span>
+              </div>
+              <button type="button" class="btn-cta btn-cta-yellow action-book-online-btn" style="padding:10px 24px;">
+                Select 8 Seater Minibus
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 5. Electric & Hybrid Vehicles -->
+        <!-- <div style="background:#FFFFFF; border:1.5px solid #DCE6EE; border-radius:20px; overflow:hidden; box-shadow:0 8px 30px rgba(6,52,91,0.06); display:grid; grid-template-columns:360px 1fr; transition:transform 0.3s ease;">
+          <div style="background:linear-gradient(180deg, #EBF3F9, #F5F9FD); display:flex; align-items:center; justify-content:center; padding:20px;">
+            <img src="/assets/images/fleet_hybrid.jpg" alt="Hybrid Vehicle" style="max-width:100%; height:auto; filter:drop-shadow(0 10px 20px rgba(0,0,0,0.18)); border-radius:8px;" />
+          </div>
+          <div style="padding:32px; display:flex; flex-direction:column; justify-content:space-between;">
+            <div>
+              <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:10px;">
+                <h2 style="font-size:26px; font-weight:800; color:var(--color-navy); margin:0;">Electric &amp; Hybrid Vehicles</h2>
+                <span style="background:#E6F8EE; color:#16B95C; font-size:12px; font-weight:800; padding:4px 10px; border-radius:6px;">ECO FRIENDLY</span>
+              </div>
+              <p style="color:#5B7286; font-size:14.5px; line-height:1.6; margin-bottom:18px;">
+                Quiet, ultra-low emission, and sustainable travel. Clean energy technology compliant with London’s Ultra Low Emission Zone (ULEZ) without compromising luxury or comfort.
+              </p>
+              <div style="display:flex; gap:20px; flex-wrap:wrap; margin-bottom:20px;">
+                <div style="display:flex; align-items:center; gap:8px; font-size:13.5px; color:#06345B; font-weight:700;">
+                  <span>👥 Up to 4 Passengers</span>
+                </div>
+                <div style="display:flex; align-items:center; gap:8px; font-size:13.5px; color:#06345B; font-weight:700;">
+                  <span>🧳 2 Large Suitcases</span>
+                </div>
+                <div style="display:flex; align-items:center; gap:8px; font-size:13.5px; color:#06345B; font-weight:700;">
+                  <span>💼 2 Hand Luggage</span>
+                </div>
+              </div>
+              <div style="display:flex; gap:12px; flex-wrap:wrap; font-size:13px; color:#4B647A;">
+                <span>&#10003; 100% ULEZ Compliant</span> &bull; 
+                <span>&#10003; Whisper Quiet Electric Drive</span> &bull; 
+                <span>&#10003; Low Carbon Footprint</span>
+              </div>
+            </div>
+            <div style="margin-top:24px; padding-top:20px; border-top:1px solid #EDF3F8; display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:16px;">
+              <div>
+                <span style="font-size:12px; color:#5B7286; font-weight:600;">Gatwick Transfers From</span>
+                <div style="font-size:26px; font-weight:800; color:#073B66;">£38.00 <span style="font-size:14px; font-weight:500; color:#5B7286;">fixed fare</span></div>
+              </div>
+              <button type="button" class="btn-cta btn-cta-yellow action-book-online-btn" style="padding:10px 24px;">
+                Select Hybrid Vehicle
+              </button>
+            </div>
+          </div>
+        </div> -->
+
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Bottom CTA Strip -->
+  <section class="bottom-cta-section">
+    <div class="container">
+      <div class="bottom-cta-card">
+        <div class="cta-left">
+          <span class="cta-badge" style="color: #fff">24/7 CALL DISPATCH</span>
+          <a href="tel:02086606000" style="color: #fff" class="cta-phone-number">020 8660 6000</a>
+        </div>
+        <div class="cta-right-btns">
+          <button type="button" class="btn-bottom-wa action-whatsapp-btn">
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12.031 2C6.495 2 2 6.495 2 12.031c0 1.996.586 3.864 1.6 5.44L2 22l4.673-1.545a9.98 9.98 0 0 0 5.358 1.576h.004c5.536 0 10.031-4.495 10.031-10.031 0-2.678-1.042-5.197-2.935-7.09A9.96 9.96 0 0 0 12.031 2zm5.836 14.185c-.244.686-1.42 1.32-1.956 1.398-.518.077-1.185.11-3.418-.809-2.73-1.127-4.495-3.921-4.632-4.103-.136-.182-1.107-1.472-1.107-2.806 0-1.334.698-1.99 1.002-2.302.245-.252.54-.316.721-.316.182 0 .363.003.522.012.167.009.39-.064.609.462.227.545.77 1.884.838 2.02.068.136.113.296.023.477-.09.182-.136.296-.272.454-.136.159-.286.355-.408.477-.136.136-.278.283-.12.554.159.272.704 1.159 1.51 1.877 1.037.925 1.912 1.212 2.184 1.348.272.136.431.113.59-.068.16-.182.68-0.795.862-1.067.182-.272.363-.227.613-.136.25.091 1.587.748 1.86 1.884.272.136.454.204.522.318.068.113.068.657-.176 1.343z"/>
+            </svg>
+            <span>WhatsApp Us</span>
+          </button>
+          <button type="button" class="btn-bottom-book action-book-online-btn">
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3">
+              <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+              <line x1="16" y1="2" x2="16" y2="6"></line>
+              <line x1="8" y1="2" x2="8" y2="6"></line>
+              <line x1="3" y1="10" x2="21" y2="10"></line>
+            </svg>
+            <span>Book Online</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top-grid">
+        <a href="/" class="logo footer-logo-wrap" aria-label="Station Cars Purley">
+          <svg class="logo-svg footer-logo-svg" viewBox="0 0 240 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M70 16 C85 6, 120 4, 155 7 C168 8, 180 12, 192 16" stroke="#FFD400" stroke-width="3" stroke-linecap="round"/>
+            <circle cx="82" cy="18" r="2.5" fill="#FFD400"/>
+            <circle cx="178" cy="18" r="2.5" fill="#FFD400"/>
+            <text x="120" y="36" fill="#FFFFFF" font-family="'Inter', -apple-system, sans-serif" font-size="20" font-weight="800" text-anchor="middle" letter-spacing="1.2">STATION CARS</text>
+            <line x1="38" y1="46" x2="88" y2="46" stroke="#FFD400" stroke-width="2"/>
+            <text x="120" y="50" fill="#FFD400" font-family="'Inter', -apple-system, sans-serif" font-size="12" font-weight="800" text-anchor="middle" letter-spacing="2.5">PURLEY</text>
+            <line x1="152" y1="46" x2="202" y2="46" stroke="#FFD400" stroke-width="2"/>
+          </svg>
+        </a>
+
+        <div class="footer-address-col">
+          <div class="footer-address-stack">
+            <div class="address-header">
+              <svg class="address-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+              <h4 class="address-title">Head Office</h4>
+            </div>
+            <div class="address-text">
+              <strong>Purley</strong><br>
+              10 Station Approach,<br>
+              Purley, Surrey, CR8 2AP
+            </div>
+            <div class="address-text">
+              <strong>Reigate</strong><br>
+              Unit 101.1, Castle Court,<br>
+              41 London Road, Reigate, Surrey, RH2 9JR
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-app-col">
+          <div class="app-title">Download Our App</div>
+          <div class="app-desc">Book your minicab wherever you are</div>
+          <div class="app-badges-row">
+            <a href="#app" class="app-badge-btn" aria-label="Download on the App Store">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M15.97 6.37c.62-.75 1.04-1.8 0.92-2.85-.9.04-1.99.6-2.61 1.34-.55.63-1.03 1.66-.9 2.69 1 .08 2-.45 2.59-1.18z"/>
+              </svg>
+              <div class="badge-text-wrap"><span class="badge-small-text">Download on</span><span class="badge-large-text">App Store</span></div>
+            </a>
+            <a href="#app" class="app-badge-btn" aria-label="Get it on Google Play">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M3.609 1.814L13.792 12 3.61 22.186a2.034 2.034 0 0 1-.225-1.127V2.941c0-.41.078-.795.224-1.127zm11.24 11.243l2.364 2.364-11.7 6.643 9.336-9.007zm2.364-2.364L3.75 3.738l11.7 6.643 1.763.312zm.987.986l2.84 1.614a1.353 1.353 0 0 1 0 2.346l-2.84 1.614-2.022-2.787 2.022-2.787z"/>
+              </svg>
+              <div class="badge-text-wrap"><span class="badge-small-text">GET IT ON</span><span class="badge-large-text">Google Play</span></div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-divider"></div>
+
+      <div class="footer-bottom-row">
+        <div>&copy; 2026 Station Cars Purley. All rights reserved.</div>
+        <div class="footer-nav">
+          <a href="/" class="footer-link">Home</a>
+          <span style="opacity:0.3;">|</span>
+          <a href="/about.html" class="footer-link">About Us</a>
+          <span style="opacity:0.3;">|</span>
+          <a href="/fleet.html" class="footer-link">Our Fleet</a>
+          <span style="opacity:0.3;">|</span>
+          <a href="/airport-transfers.html" class="footer-link">Airport Transfers</a>
+          <span style="opacity:0.3;">|</span>
+          <a href="/services.html" class="footer-link">Services</a>
+          <span style="opacity:0.3;">|</span>
+          <a href="/contact.html" class="footer-link">Contact</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Modals -->
+  <div class="modal-backdrop" id="bookingModal">
+    <div class="modal-content">
+      <button type="button" class="modal-close-btn" aria-label="Close modal">&times;</button>
+      <h3 class="modal-header-title">Book Your Journey</h3>
+      <p style="color:#5B7286; font-size:14px; margin-bottom:16px;">Our 24/7 Purley dispatch desk will confirm your driver instantly.</p>
+      <form id="onlineBookingForm" style="display:flex; flex-direction:column; gap:12px;">
+        <div>
+          <label style="font-size:12px; font-weight:700; color:#06345B; display:block; margin-bottom:4px;">Vehicle Tier</label>
+          <select id="bookingVehicleType" style="width:100%; height:42px; border:1px solid #D6E2EC; border-radius:6px; padding:0 10px; font-size:14px; color:#123A5C; font-weight:500;">
+            <option value="Saloon Cars">Saloon Cars (Up to 4 passengers)</option>
+            <option value="Executive Cars">Executive Cars (BMW / Mercedes luxury)</option>
+            <option value="6–7 Seater MPVs">6–7 Seater MPVs (Extra space &amp; luggage)</option>
+            <option value="8 Seater Minibuses">8 Seater Minibuses (Group travel)</option>
+            <option value="Electric & Hybrid Vehicles">Electric &amp; Hybrid Vehicles (Eco)</option>
+          </select>
+        </div>
+        <div style="display:grid; grid-template-columns:1fr 1fr; gap:10px;">
+          <div>
+            <label style="font-size:12px; font-weight:700; color:#06345B; display:block; margin-bottom:4px;">Full Name</label>
+            <input type="text" required placeholder="John Smith" style="width:100%; height:40px; border:1px solid #D6E2EC; border-radius:6px; padding:0 10px; font-size:13.5px;" />
+          </div>
+          <div>
+            <label style="font-size:12px; font-weight:700; color:#06345B; display:block; margin-bottom:4px;">Phone Number</label>
+            <input type="tel" required placeholder="07123 456789" style="width:100%; height:40px; border:1px solid #D6E2EC; border-radius:6px; padding:0 10px; font-size:13.5px;" />
+          </div>
+        </div>
+        <div>
+          <label style="font-size:12px; font-weight:700; color:#06345B; display:block; margin-bottom:4px;">Notes / Luggage Requirements</label>
+          <textarea rows="2" placeholder="Flight number, child seat needed, etc." style="width:100%; border:1px solid #D6E2EC; border-radius:6px; padding:8px 10px; font-size:13px; font-family:inherit;"></textarea>
+        </div>
+        <button type="submit" class="btn-cta btn-cta-yellow" style="width:100%; margin-top:8px; font-size:15px;">
+          Confirm Booking Request
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <div class="toast" id="appToast">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#FFD400" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+    <span class="toast-message">Notification</span>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="/script.js"></script>
+</body>
+</html>

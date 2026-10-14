@@ -1,0 +1,6 @@
+{
+  "name": "Station Cars Purley",
+  "description": "24/7 Private Hire & Airport Transfers in Purley, Surrey and surrounding London airports.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

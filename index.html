@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Station Cars Purley - 24/7 Private Hire &amp; Airport Transfers</title>
+  <meta name="description" content="24/7 Private Hire &amp; Airport Transfers in Purley, Surrey and surrounding London airports." />
+  <meta property="og:title" content="Station Cars Purley - 24/7 Private Hire &amp; Airport Transfers" />
+  <meta property="og:description" content="24/7 Private Hire &amp; Airport Transfers in Purley, Surrey and surrounding London airports." />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  
+  <!-- Direct Stylesheet -->
+  <link rel="stylesheet" href="/style.css" />
+<link rel="stylesheet" href="/index.css">
+</head>
+<body>
+
+  <!-- ========================================================================
+       PRELOADER
+       ======================================================================== -->
+  <div id="sitePreloader" class="site-preloader">
+    <div class="preloader-inner">
+      <div class="preloader-car-wrap">
+        <svg class="preloader-car-svg" viewBox="0 0 160 50" fill="none">
+          <path class="car-body-path" d="M10 32 C30 32, 45 12, 80 12 C115 12, 130 32, 150 32" stroke="#FFD400" stroke-width="4" stroke-linecap="round"/>
+          <circle cx="38" cy="34" r="8" stroke="#FFD400" stroke-width="3.5" fill="#052644"/>
+          <circle cx="122" cy="34" r="8" stroke="#FFD400" stroke-width="3.5" fill="#052644"/>
+          <circle cx="38" cy="34" r="3" fill="#FFD400"/>
+          <circle cx="122" cy="34" r="3" fill="#FFD400"/>
+          <path d="M52 18 L76 18 L76 28 L46 28 Z" fill="rgba(255, 212, 0, 0.35)"/>
+          <path d="M84 18 L108 18 L114 28 L84 28 Z" fill="rgba(255, 212, 0, 0.35)"/>
+        </svg>
+        <div class="preloader-road"></div>
+      </div>
+      <div class="preloader-brand">
+        <span class="preloader-title">STATION CARS</span>
+        <span class="preloader-subtitle">PURLEY</span>
+      </div>
+      <div class="preloader-bar">
+        <div class="preloader-progress"></div>
+      </div>
+      <div class="preloader-status">24/7 Private Hire &amp; Airport Transfers</div>
+    </div>
+  </div>
+
+  <!-- Custom Interactive Mouse Cursor with Business Car -->
+  <div class="custom-cursor-dot" id="cursorDot"></div>
+  <div class="custom-cursor-ring" id="cursorRing"></div>
+  <div class="custom-cursor-car" id="cursorCar">
+    <svg viewBox="0 0 54 26" fill="none" class="cursor-car-svg">
+      <path d="M4 17 L8 17 C10 12, 17 6, 27 6 C35 6, 40 9, 46 13 L49 15 C51.5 16.5, 52 18.5, 50 20.5 C48.5 21.5, 45 21.5, 43 21.5 L39 21.5 C38 18.5, 34 18.5, 33 21.5 L17 21.5 C16 18.5, 12 18.5, 11 21.5 L4 21.5 C2.5 21.5, 1.5 20, 2 18.5 C2.5 17.5, 3.2 17, 4 17 Z" fill="#FFD400"/>
+      <circle cx="14" cy="21" r="3.6" fill="#041D34" stroke="#FFD400" stroke-width="1.8"/>
+      <circle cx="36" cy="21" r="3.6" fill="#041D34" stroke="#FFD400" stroke-width="1.8"/>
+      <path d="M17 10 L26 10 L26 15.5 L13 15.5 Z" fill="#052644"/>
+      <path d="M28 10 L37 10 L41 15.5 L28 15.5 Z" fill="#052644"/>
+      <circle cx="49" cy="17.5" r="1.5" fill="#FFFFFF"/>
+      <path d="M49 17.5 L56 15 L56 20 Z" fill="rgba(255, 255, 255, 0.5)"/>
+    </svg>
+  </div>
+
+  <!-- ========================================================================
+       SITE HEADER
+       ======================================================================== -->
+  <header class="site-header">
+    <div class="header-container">
+      
+      <!-- Brand Logo -->
+      <a href="#" class="logo" aria-label="Station Cars Purley">
+        <svg class="logo-svg" viewBox="0 0 240 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <!-- Car roof silhouette accent -->
+          <path d="M70 16 C85 6, 120 4, 155 7 C168 8, 180 12, 192 16" stroke="#FFD400" stroke-width="3" stroke-linecap="round"/>
+          <circle cx="82" cy="18" r="2.5" fill="#FFD400"/>
+          <circle cx="178" cy="18" r="2.5" fill="#FFD400"/>
+          <!-- Brand Name -->
+          <text x="120" y="36" fill="#FFFFFF" font-family="'Inter', -apple-system, sans-serif" font-size="20" font-weight="800" text-anchor="middle" letter-spacing="1.2">STATION CARS</text>
+          <!-- Underline with PURLEY -->
+          <line x1="38" y1="46" x2="88" y2="46" stroke="#FFD400" stroke-width="2"/>
+          <text x="120" y="50" fill="#FFD400" font-family="'Inter', -apple-system, sans-serif" font-size="12" font-weight="800" text-anchor="middle" letter-spacing="2.5">PURLEY</text>
+          <line x1="152" y1="46" x2="202" y2="46" stroke="#FFD400" stroke-width="2"/>
+        </svg>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav class="header-nav">
+        <a href="/" class="nav-link active">Home</a>
+        <a href="/about.html" class="nav-link">About Us</a>
+        <a href="/fleet.html" class="nav-link">Our Fleet</a>
+        <a href="/airport-transfers.html" class="nav-link">Airport Transfers</a>
+        <a href="/services.html" class="nav-link">Services</a>
+        <a href="/contact.html" class="nav-link">Contact</a>
+      </nav>
+
+      <!-- Header Action CTAs -->
+      <div class="header-actions">
+        <button type="button" class="btn-whatsapp-header" aria-label="WhatsApp Us">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12.031 2C6.495 2 2 6.495 2 12.031c0 1.996.586 3.864 1.6 5.44L2 22l4.673-1.545a9.98 9.98 0 0 0 5.358 1.576h.004c5.536 0 10.031-4.495 10.031-10.031 0-2.678-1.042-5.197-2.935-7.09A9.96 9.96 0 0 0 12.031 2zm5.836 14.185c-.244.686-1.42 1.32-1.956 1.398-.518.077-1.185.11-3.418-.809-2.73-1.127-4.495-3.921-4.632-4.103-.136-.182-1.107-1.472-1.107-2.806 0-1.334.698-1.99 1.002-2.302.245-.252.54-.316.721-.316.182 0 .363.003.522.012.167.009.39-.064.609.462.227.545.77 1.884.838 2.02.068.136.113.296.023.477-.09.182-.136.296-.272.454-.136.159-.286.355-.408.477-.136.136-.278.283-.12.554.159.272.704 1.159 1.51 1.877 1.037.925 1.912 1.212 2.184 1.348.272.136.431.113.59-.068.16-.182.68-0.795.862-1.067.182-.272.363-.227.613-.136.25.091 1.587.748 1.86 1.884.272.136.454.204.522.318.068.113.068.657-.176 1.343z"/>
+          </svg>
+          <span>WhatsApp Us</span>
+        </button>
+
+        <a href="tel:02086606000" class="btn-phone-header" aria-label="Call 020 8660 6000">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+          </svg>
+          <span>020 8660 6000</span>
+        </a>
+      </div>
+
+      <!-- Mobile Menu Toggle Button -->
+      <button type="button" class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle navigation menu">
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </button>
+
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Drawer -->
+  <div class="modal-backdrop" id="drawerBackdrop"></div>
+  <aside class="mobile-nav-drawer" id="mobileNavDrawer" aria-label="Mobile Navigation">
+    <div class="mobile-drawer-header">
+      <div style="display:flex; align-items:center; gap:8px;">
+        <span style="color:#FFD400; font-weight:800; font-size:16px; letter-spacing:1px;">STATION CARS</span>
+        <span style="color:#FFFFFF; font-size:11px; background:rgba(255,255,255,0.15); padding:2px 6px; border-radius:4px; font-weight:700;">PURLEY</span>
+      </div>
+      <button type="button" class="mobile-drawer-close-btn" id="drawerClose" aria-label="Close menu">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+    <div class="mobile-drawer-links">
+      <a href="/" class="mobile-drawer-link active"><span>Home</span><span class="link-arrow">&rarr;</span></a>
+      <a href="/about.html" class="mobile-drawer-link"><span>About Us</span><span class="link-arrow">&rarr;</span></a>
+      <a href="/fleet.html" class="mobile-drawer-link"><span>Our Fleet</span><span class="link-arrow">&rarr;</span></a>
+      <a href="/airport-transfers.html" class="mobile-drawer-link"><span>Airport Transfers</span><span class="link-arrow">&rarr;</span></a>
+      <a href="/services.html" class="mobile-drawer-link"><span>Services</span><span class="link-arrow">&rarr;</span></a>
+      <a href="/contact.html" class="mobile-drawer-link"><span>Contact</span><span class="link-arrow">&rarr;</span></a>
+    </div>
+    <div class="mobile-drawer-actions">
+      <a href="tel:02086606000" class="btn-cta btn-cta-navy" style="width:100%; justify-content:center;">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+        020 8660 6000
+      </a>
+      <button type="button" class="btn-cta btn-cta-green action-whatsapp-btn" style="width:100%; justify-content:center;">
+        WhatsApp Us
+      </button>
+    </div>
+  </aside>
+
+  <main>
+    <!-- ========================================================================
+         HERO SECTION
+         ======================================================================== -->
+    <section class="hero-section" id="hero">
+      <div class="hero-overlay"></div>
+      <div class="container">
+        <div class="hero-content">
+          <span class="hero-tagline">STATION CARS PURLEY</span>
+          <h1 class="hero-heading">
+            <span class="yellow-text">24/7</span> Private Hire &amp;<br>
+            Airport Transfers
+          </h1>
+          <p class="hero-subheading">
+            Reliable, safe and professional drivers,<br>
+            available 24 hours a day.
+          </p>
+
+          <!-- Infinite Smooth Loop Airport Destination Carousel / Marquee -->
+          <div class="hero-airports-marquee-wrapper" id="heroAirportsMarquee">
+            <div class="hero-airports-track">
+              <!-- Set 1 -->
+              <div class="airport-item">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M21 16v-2l-8-5V3.5c0-.83-.67-1.5-1.5-1.5S10 2.67 10 3.5V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5l8 2.5z"/>
+                </svg>
+                <span>Gatwick Airport</span>
+              </div>
+              <div class="airport-divider"></div>
+
+              <div class="airport-item">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M21 16v-2l-8-5V3.5c0-.83-.67-1.5-1.5-1.5S10 2.67 10 3.5V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5l8 2.5z"/>
+                </svg>
+                <span>Heathrow Airport</span>
+              </div>
+              <div class="airport-divider"></div>
+
+              <div class="airport-item">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M21 16v-2l-8-5V3.5c0-.83-.67-1.5-1.5-1.5S10 2.67 10 3.5V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5l8 2.5z"/>
+                </svg>
+                <span>Stansted Airport</span>
+              </div>
+              <div class="airport-divider"></div>
+
+              <div class="airport-item">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M21 16v-2l-8-5V3.5c0-.83-.67-1.5-1.5-1.5S10 2.67 10 3.5V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5l8 2.5z"/>
+                </svg>
+                <span>Luton Airport</span>
+              </div>
+              <div class="airport-divider"></div>
+
+              <div class="airport-item">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M21 16v-2l-8-5V3.5c0-.83-.67-1.5-1.5-1.5S10 2.67 10 3.5V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5l8 2.5z"/>
+                </svg>
+                <span>London City Airport</span>
+              </div>
+              <div class="airport-divider"></div>
+
+              <!-- Duplicate Set 2 for Seamless Loop -->
+              <div class="airport-item">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M21 16v-2l-8-5V3.5c0-.83-.67-1.5-1.5-1.5S10 2.67 10 3.5V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5l8 2.5z"/>
+                </svg>
+                <span>Gatwick Airport</span>
+              </div>
+              <div class="airport-divider"></div>
+
+              <div class="airport-item">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M21 16v-2l-8-5V3.5c0-.83-.67-1.5-1.5-1.5S10 2.67 10 3.5V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5l8 2.5z"/>
+                </svg>
+                <span>Heathrow Airport</span>
+              </div>
+              <div class="airport-divider"></div>
+
+              <div class="airport-item">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M21 16v-2l-8-5V3.5c0-.83-.67-1.5-1.5-1.5S10 2.67 10 3.5V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5l8 2.5z"/>
+                </svg>
+                <span>Stansted Airport</span>
+              </div>
+              <div class="airport-divider"></div>
+
+              <div class="airport-item">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M21 16v-2l-8-5V3.5c0-.83-.67-1.5-1.5-1.5S10 2.67 10 3.5V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5l8 2.5z"/>
+                </svg>
+                <span>Luton Airport</span>
+              </div>
+              <div class="airport-divider"></div>
+
+              <div class="airport-item">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M21 16v-2l-8-5V3.5c0-.83-.67-1.5-1.5-1.5S10 2.67 10 3.5V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5l8 2.5z"/>
+                </svg>
+                <span>London City Airport</span>
+              </div>
+              <div class="airport-divider"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         BOOK YOUR JOURNEY CARD (Overlapping)
+         ======================================================================== -->
+    <section class="booking-section-wrapper" id="booking">
+      <div class="container">
+        <div class="booking-card">
+          
+          <div class="booking-header">
+            <h2 class="booking-title">Book Your Journey</h2>
+            <p class="booking-subtitle">Fast, easy and secure booking in just a few clicks</p>
+          </div>
+
+          <!-- 5 Form Fields Row -->
+          <form class="booking-form-row" style="display: none;" id="bookingQuickForm" onsubmit="return false;">
+            <!-- Pickup -->
+            <div class="form-field">
+              <div class="field-icon">
+                <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+              </div>
+              <div class="field-content">
+                <label class="field-label" for="pickupLocation">Pickup Location</label>
+                <input type="text" id="pickupLocation" class="field-input" placeholder="Enter pickup address" value="Purley, Surrey" />
+              </div>
+            </div>
+
+            <!-- Destination -->
+            <div class="form-field">
+              <div class="field-icon">
+                <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+              </div>
+              <div class="field-content">
+                <label class="field-label" for="destinationLocation">Destination</label>
+                <input type="text" id="destinationLocation" class="field-input" placeholder="Enter destination" value="London Gatwick Airport (LGW)" />
+              </div>
+            </div>
+
+            <!-- Date & Time -->
+            <div class="form-field">
+              <div class="field-icon">
+                <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                  <line x1="16" y1="2" x2="16" y2="6"></line>
+                  <line x1="8" y1="2" x2="8" y2="6"></line>
+                  <line x1="3" y1="10" x2="21" y2="10"></line>
+                </svg>
+              </div>
+              <div class="field-content">
+                <label class="field-label" for="dateTimeInput">Date &amp; Time</label>
+                <input type="text" id="dateTimeInput" class="field-input" placeholder="Select date &amp; time" />
+              </div>
+              <div class="field-chevron">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+              </div>
+            </div>
+
+            <!-- Passengers -->
+            <div class="form-field">
+              <div class="field-icon">
+                <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                  <circle cx="12" cy="7" r="4"></circle>
+                </svg>
+              </div>
+              <div class="field-content">
+                <label class="field-label" for="passengersSelect">Passengers</label>
+                <select id="passengersSelect" class="field-select">
+                  <option value="1-2 passengers" selected>1-2 passengers</option>
+                  <option value="3-4 passengers">3-4 passengers</option>
+                  <option value="5-6 passengers">5-6 passengers</option>
+                  <option value="7-8 passengers">7-8 passengers</option>
+                </select>
+              </div>
+              <div class="field-chevron">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+              </div>
+            </div>
+
+            <!-- Get a Quote Button -->
+            <button type="button" class="btn-quote" id="btnGetQuote">
+              <span>Get a Quote</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </button>
+          </form>
+
+          <!-- 4 CTA Buttons Row -->
+          <div class="booking-cta-row">
+            <!-- Call -->
+            <a href="tel:02086606000" class="btn-cta btn-cta-navy action-call-btn">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+              </svg>
+              <span>Call 020 8660 6000</span>
+            </a>
+
+            <!-- WhatsApp Us -->
+            <button type="button" class="btn-cta btn-cta-green action-whatsapp-btn">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12.031 2C6.495 2 2 6.495 2 12.031c0 1.996.586 3.864 1.6 5.44L2 22l4.673-1.545a9.98 9.98 0 0 0 5.358 1.576h.004c5.536 0 10.031-4.495 10.031-10.031 0-2.678-1.042-5.197-2.935-7.09A9.96 9.96 0 0 0 12.031 2zm5.836 14.185c-.244.686-1.42 1.32-1.956 1.398-.518.077-1.185.11-3.418-.809-2.73-1.127-4.495-3.921-4.632-4.103-.136-.182-1.107-1.472-1.107-2.806 0-1.334.698-1.99 1.002-2.302.245-.252.54-.316.721-.316.182 0 .363.003.522.012.167.009.39-.064.609.462.227.545.77 1.884.838 2.02.068.136.113.296.023.477-.09.182-.136.296-.272.454-.136.159-.286.355-.408.477-.136.136-.278.283-.12.554.159.272.704 1.159 1.51 1.877 1.037.925 1.912 1.212 2.184 1.348.272.136.431.113.59-.068.16-.182.68-0.795.862-1.067.182-.272.363-.227.613-.136.25.091 1.587.748 1.86 1.884.272.136.454.204.522.318.068.113.068.657-.176 1.343z"/>
+              </svg>
+              <span>WhatsApp Us</span>
+            </button>
+
+            <!-- Book Online -->
+            <button type="button" class="btn-cta btn-cta-yellow action-book-online-btn">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3">
+                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                <line x1="16" y1="2" x2="16" y2="6"></line>
+                <line x1="8" y1="2" x2="8" y2="6"></line>
+                <line x1="3" y1="10" x2="21" y2="10"></line>
+              </svg>
+              <span>Book Online</span>
+            </button>
+
+            <!-- Download Our App -->
+            <button type="button" class="btn-cta btn-cta-navy action-download-app-btn">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+              </svg>
+              <span>Download Our App</span>
+            </button>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         SERVICE BENEFITS ROW (6 items)
+         ======================================================================== -->
+    <section class="benefits-section" id="services">
+      <div class="container">
+        <div class="benefits-grid">
+          
+          <!-- 1. 24/7 Service -->
+          <div class="benefit-item">
+            <div class="benefit-icon-circle">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12 6 12 12 16 14"></polyline>
+              </svg>
+            </div>
+            <h3 class="benefit-title">24/7 Service</h3>
+            <p class="benefit-desc">Day or night,<br>we're here for you</p>
+          </div>
+
+          <!-- 2. 300+ Vehicles -->
+          <div class="benefit-item">
+            <div class="benefit-icon-circle">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9L2 12v4c0 .6.4 1 1 1h2"></path>
+                <circle cx="7" cy="17" r="2"></circle>
+                <path d="M9 17h6"></path>
+                <circle cx="17" cy="17" r="2"></circle>
+              </svg>
+            </div>
+            <h3 class="benefit-title">300+ Vehicles</h3>
+            <p class="benefit-desc">Large fleet of saloons,<br>MPVs and minibuses</p>
+          </div>
+
+          <!-- 3. Experienced Drivers -->
+          <div class="benefit-item">
+            <div class="benefit-icon-circle">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
+                <circle cx="9" cy="7" r="4"></circle>
+                <polyline points="16 11 18 13 22 9"></polyline>
+              </svg>
+            </div>
+            <h3 class="benefit-title">Experienced Drivers</h3>
+            <p class="benefit-desc">Local, reliable<br>and professional</p>
+          </div>
+
+          <!-- 4. Airport Specialists -->
+          <div class="benefit-item">
+            <div class="benefit-icon-circle">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M21 16v-2l-8-5V3.5c0-.83-.67-1.5-1.5-1.5S10 2.67 10 3.5V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5l8 2.5z"/>
+              </svg>
+            </div>
+            <h3 class="benefit-title">Airport Specialists</h3>
+            <p class="benefit-desc">Regular transfers to<br>all major airports</p>
+          </div>
+
+          <!-- 5. Eco-Friendly Options -->
+          <div class="benefit-item">
+            <div class="benefit-icon-circle">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"></path>
+                <path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"></path>
+              </svg>
+            </div>
+            <h3 class="benefit-title">Eco-Friendly Options</h3>
+            <p class="benefit-desc">Hybrid &amp; electric<br>vehicles available</p>
+          </div>
+
+          <!-- 6. Easy Booking -->
+          <div class="benefit-item">
+            <div class="benefit-icon-circle">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect>
+                <line x1="12" y1="18" x2="12.01" y2="18"></line>
+              </svg>
+            </div>
+            <h3 class="benefit-title">Easy Booking</h3>
+            <p class="benefit-desc">Phone, online,<br>WhatsApp or app</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         OUR FLEET SECTION
+         ======================================================================== -->
+    <section class="fleet-section" id="fleet">
+      <div class="container">
+        
+        <div class="section-header-row">
+          <div>
+            <h2 class="section-title">Our Fleet</h2>
+            <p class="section-subtitle">A range of vehicles to suit your needs</p>
+          </div>
+          <!-- <button type="button" class="btn-outline-view action-book-online-btn">
+            <span>View Our Fleet</span>
+            <span style="font-weight:700;">&rarr;</span>
+          </button> -->
+        </div>
+
+        <!-- 5 Vehicle Cards -->
+        <div class="fleet-grid">
+          
+          <!-- Card 1: Saloon Cars -->
+          <div class="fleet-card">
+            <div class="fleet-img-wrap">
+              <img src="/assets/images/fleet_saloon.jpg" alt="Saloon Cars - Station Cars Purley" loading="lazy" />
+            </div>
+            <div class="fleet-info">
+              <h3 class="fleet-name">Saloon Cars</h3>
+              <p class="fleet-desc">Perfect for everyday journeys</p>
+            </div>
+          </div>
+
+          <!-- Card 2: Executive Cars -->
+          <div class="fleet-card">
+            <div class="fleet-img-wrap">
+              <img src="/assets/images/fleet_executive.jpg" alt="Executive Cars - Station Cars Purley" loading="lazy" />
+            </div>
+            <div class="fleet-info">
+              <h3 class="fleet-name">Executive Cars</h3>
+              <p class="fleet-desc">Comfortable travel for<br>business &amp; special occasions</p>
+            </div>
+          </div>
+
+          <!-- Card 3: 5–7 Seater MPVs -->
+          <div class="fleet-card">
+            <div class="fleet-img-wrap">
+              <img src="/assets/images/fleet_mpv.jpg" alt="5–7 Seater MPVs - Station Cars Purley" loading="lazy" />
+            </div>
+            <div class="fleet-info">
+              <h3 class="fleet-name">5–7 Seater MPVs</h3>
+              <p class="fleet-desc">Ideal for families and<br>airport luggage</p>
+            </div>
+          </div>
+
+          <!-- Card 4: 8 Seater Minibuses -->
+          <div class="fleet-card">
+            <div class="fleet-img-wrap">
+              <img src="/assets/images/fleet_minibus.jpg" alt="8 Seater Minibuses - Station Cars Purley" loading="lazy" />
+            </div>
+            <div class="fleet-info">
+              <h3 class="fleet-name">8 Seater Minibuses</h3>
+              <p class="fleet-desc">Travel together with<br>larger groups</p>
+            </div>
+          </div>
+
+          <!-- Card 5: Electric & Hybrid Vehicles -->
+          <div class="fleet-card">
+            <div class="fleet-img-wrap">
+              <img src="/assets/images/fleet_hybrid.jpg" alt="Electric & Hybrid Vehicles - Station Cars Purley" loading="lazy" />
+            </div>
+            <div class="fleet-info">
+              <h3 class="fleet-name">Electric &amp; Hybrid Vehicles</h3>
+              <p class="fleet-desc">A greener way to travel</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         AIRPORT TRANSFERS BANNER
+         ======================================================================== -->
+    <section class="airport-banner-section" id="airports">
+      <div class="container">
+        
+        <div class="airport-banner-card">
+          <!-- Left: Image -->
+          <div class="airport-banner-media">
+            <img src="/assets/images/airport_terminal_plane.jpg" alt="Airport Transfers Station Cars Purley" loading="lazy" />
+          </div>
+
+          <!-- Centre: Titles & CTA -->
+          <div class="airport-banner-center">
+            <h2 class="airport-banner-title">Airport Transfers</h2>
+            <p class="airport-banner-sub">Reliable, on time and stress free</p>
+            <button type="button" class="btn-airport-yellow action-book-online-btn">
+              <span>Book your Airport Transfers</span>
+              <span style="font-weight:700;">&rarr;</span>
+            </button>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========================================================================
+       FOOTER
+       ======================================================================== -->
+  <footer class="site-footer" id="about">
+    <div class="container">
+      
+      <!-- Top Grid: Logo, Address, App Badges -->
+      <div class="footer-top-grid">
+        
+        <!-- Left: Logo -->
+        <a href="#" class="logo footer-logo-wrap" aria-label="Station Cars Purley">
+          <svg class="logo-svg footer-logo-svg" viewBox="0 0 240 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M70 16 C85 6, 120 4, 155 7 C168 8, 180 12, 192 16" stroke="#FFD400" stroke-width="3" stroke-linecap="round"/>
+            <circle cx="82" cy="18" r="2.5" fill="#FFD400"/>
+            <circle cx="178" cy="18" r="2.5" fill="#FFD400"/>
+            <text x="120" y="36" fill="#FFFFFF" font-family="'Inter', -apple-system, sans-serif" font-size="20" font-weight="800" text-anchor="middle" letter-spacing="1.2">STATION CARS</text>
+            <line x1="38" y1="46" x2="88" y2="46" stroke="#FFD400" stroke-width="2"/>
+            <text x="120" y="50" fill="#FFD400" font-family="'Inter', -apple-system, sans-serif" font-size="12" font-weight="800" text-anchor="middle" letter-spacing="2.5">PURLEY</text>
+            <line x1="152" y1="46" x2="202" y2="46" stroke="#FFD400" stroke-width="2"/>
+          </svg>
+        </a>
+
+        <!-- Centre: Address with pin -->
+        <div class="footer-address-col">
+          <div class="footer-address-stack">
+            <div class="address-header">
+              <svg class="address-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+              <h4 class="address-title">Head Office</h4>
+            </div>
+            <div class="address-text">
+              <strong>Purley</strong><br>
+              10 Station Approach,<br>
+              Purley, Surrey, CR8 2AP
+            </div>
+            <div class="address-text">
+              <strong>Reigate</strong><br>
+              Unit 101.1, Castle Court,<br>
+              41 London Road, Reigate, Surrey, RH2 9JR
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Download App + Badges -->
+        <div class="footer-app-col">
+          <div class="app-title">Download Our App</div>
+          <div class="app-desc">Book your minicab wherever you are</div>
+          <div class="app-badges-row">
+            <!-- App Store Badge -->
+            <a href="#app" class="app-badge-btn" aria-label="Download on the App Store">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M15.97 6.37c.62-.75 1.04-1.8 0.92-2.85-.9.04-1.99.6-2.61 1.34-.55.63-1.03 1.66-.9 2.69 1 .08 2-.45 2.59-1.18z"/>
+              </svg>
+              <div class="badge-text-wrap">
+                <span class="badge-small-text">Download on the</span>
+                <span class="badge-large-text">App Store</span>
+              </div>
+            </a>
+
+            <!-- Google Play Badge -->
+            <a href="#app" class="app-badge-btn" aria-label="Get it on Google Play">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M3.609 1.814L13.792 12 3.61 22.186a2.034 2.034 0 0 1-.225-1.127V2.941c0-.41.078-.795.224-1.127zm11.24 11.243l2.364 2.364-11.7 6.643 9.336-9.007zm2.364-2.364L3.75 3.738l11.7 6.643 1.763.312zm.987.986l2.84 1.614a1.353 1.353 0 0 1 0 2.346l-2.84 1.614-2.022-2.787 2.022-2.787z"/>
+              </svg>
+              <div class="badge-text-wrap">
+                <span class="badge-small-text">GET IT ON</span>
+                <span class="badge-large-text">Google Play</span>
+              </div>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="footer-divider"></div>
+
+      <!-- Bottom Row: Copyright & Nav -->
+      <div class="footer-bottom-row">
+        <div>&copy; 2026 Station Cars Purley. All rights reserved.</div>
+        <div class="footer-nav">
+          <a href="/" class="footer-link">Home</a>
+          <span style="opacity:0.3;">|</span>
+          <a href="/about.html" class="footer-link">About Us</a>
+          <span style="opacity:0.3;">|</span>
+          <a href="/fleet.html" class="footer-link">Our Fleet</a>
+          <span style="opacity:0.3;">|</span>
+          <a href="/airport-transfers.html" class="footer-link">Airport Transfers</a>
+          <span style="opacity:0.3;">|</span>
+          <a href="/services.html" class="footer-link">Services</a>
+          <span style="opacity:0.3;">|</span>
+          <a href="/contact.html" class="footer-link">Contact</a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- ========================================================================
+       MODALS & INTERACTIVE OVERLAYS
+       ======================================================================== -->
+  
+  <!-- Instant Quote Modal -->
+  <div class="modal-backdrop" id="quoteModal">
+    <div class="modal-content">
+      <button type="button" class="modal-close-btn" aria-label="Close modal">&times;</button>
+      <h3 class="modal-header-title">Estimated Journey Fare</h3>
+      <p style="color:#5B7286; font-size:14px;">Instant fixed-fare estimate with no surge pricing.</p>
+      
+      <div class="quote-fare-display">
+        <div style="font-size:12px; font-weight:700; color:#5B7286; text-transform:uppercase;">Estimated Price</div>
+        <div class="fare-price" id="quoteFareAmount">£36.00</div>
+        <div style="font-size:14px; color:#06345B; font-weight:600; margin-top:4px;" id="quoteFareRoute">Purley &rarr; Gatwick Airport</div>
+        <div style="font-size:12px; color:#5B7286; margin-top:2px;" id="quoteFarePassengers">For 1-2 passengers</div>
+      </div>
+
+      <div style="background:#F0F6FB; border-radius:8px; padding:12px; font-size:13px; color:#073B66; margin-bottom:18px;">
+        &#10003; Flight tracking included &bull; 45 mins free waiting at airports &bull; No hidden fees
+      </div>
+
+      <div style="display:flex; gap:12px;">
+        <button type="button" class="btn-cta btn-cta-yellow" id="btnConfirmQuoteBooking" style="flex:1;">
+          Book This Fare Online
+        </button>
+        <a href="tel:02086606000" class="btn-cta btn-cta-navy" style="flex:1;">
+          Call to Book
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Online Booking Modal -->
+  <div class="modal-backdrop" id="bookingModal">
+    <div class="modal-content">
+      <button type="button" class="modal-close-btn" aria-label="Close modal">&times;</button>
+      <h3 class="modal-header-title">Book Your Minicab Online</h3>
+      <p style="color:#5B7286; font-size:14px; margin-bottom:16px;">Fill in your details and our dispatch will assign a vehicle immediately.</p>
+      
+      <form id="onlineBookingForm" style="display:flex; flex-direction:column; gap:12px;">
+        <div>
+          <label style="font-size:12px; font-weight:700; color:#06345B; display:block; margin-bottom:4px;">Vehicle Tier</label>
+          <select id="bookingVehicleType" style="width:100%; height:42px; border:1px solid #D6E2EC; border-radius:6px; padding:0 10px; font-size:14px; color:#123A5C; font-weight:500;">
+            <option value="Saloon Cars">Saloon Cars (Up to 4 passengers, 2 suitcases)</option>
+            <option value="Executive Cars">Executive Cars (BMW / Mercedes luxury)</option>
+            <option value="5–7 Seater MPVs">5–7 Seater MPVs (Extra space &amp; luggage)</option>
+            <option value="8 Seater Minibuses">8 Seater Minibuses (Group travel)</option>
+            <option value="Electric & Hybrid Vehicles">Electric &amp; Hybrid Vehicles (Eco-friendly)</option>
+          </select>
+        </div>
+
+        <div style="display:grid; grid-template-columns:1fr 1fr; gap:10px;">
+          <div>
+            <label style="font-size:12px; font-weight:700; color:#06345B; display:block; margin-bottom:4px;">Full Name</label>
+            <input type="text" required placeholder="John Smith" style="width:100%; height:40px; border:1px solid #D6E2EC; border-radius:6px; padding:0 10px; font-size:13.5px;" />
+          </div>
+          <div>
+            <label style="font-size:12px; font-weight:700; color:#06345B; display:block; margin-bottom:4px;">Phone Number</label>
+            <input type="tel" required placeholder="07123 456789" style="width:100%; height:40px; border:1px solid #D6E2EC; border-radius:6px; padding:0 10px; font-size:13.5px;" />
+          </div>
+        </div>
+
+        <div>
+          <label style="font-size:12px; font-weight:700; color:#06345B; display:block; margin-bottom:4px;">Flight Number (Optional for airport pickups)</label>
+          <input type="text" placeholder="e.g. BA2276" style="width:100%; height:40px; border:1px solid #D6E2EC; border-radius:6px; padding:0 10px; font-size:13.5px;" />
+        </div>
+
+        <div>
+          <label style="font-size:12px; font-weight:700; color:#06345B; display:block; margin-bottom:4px;">Notes / Luggage Details</label>
+          <textarea rows="2" placeholder="Child seat needed, large suitcases, etc." style="width:100%; border:1px solid #D6E2EC; border-radius:6px; padding:8px 10px; font-size:13px; font-family:inherit;"></textarea>
+        </div>
+
+        <button type="submit" class="btn-cta btn-cta-yellow" style="width:100%; margin-top:8px; font-size:15px;">
+          Confirm Booking Request
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- App Download Modal -->
+  <div class="modal-backdrop" id="appModal">
+    <div class="modal-content" style="text-align:center;">
+      <button type="button" class="modal-close-btn" aria-label="Close modal">&times;</button>
+      <div style="width:60px; height:60px; background:#073B66; border-radius:50%; display:inline-flex; align-items:center; justify-content:center; color:#FFD400; margin-bottom:12px;">
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+          <rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect>
+          <line x1="12" y1="18" x2="12.01" y2="18"></line>
+        </svg>
+      </div>
+      <h3 class="modal-header-title">Download Station Cars App</h3>
+      <p style="color:#5B7286; font-size:14px; margin-bottom:20px;">Book in 2 taps, track your driver live on the map, and pay seamlessly via card or cash.</p>
+      
+      <div style="display:flex; justify-content:center; gap:12px; margin-bottom:16px;">
+        <a href="#" class="app-badge-btn" onclick="alert('Station Cars Purley iOS App - Link will open App Store');">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M15.97 6.37c.62-.75 1.04-1.8 0.92-2.85-.9.04-1.99.6-2.61 1.34-.55.63-1.03 1.66-.9 2.69 1 .08 2-.45 2.59-1.18z"/>
+          </svg>
+          <div class="badge-text-wrap">
+            <span class="badge-small-text">Download on the</span>
+            <span class="badge-large-text">App Store</span>
+          </div>
+        </a>
+
+        <a href="#" class="app-badge-btn" onclick="alert('Station Cars Purley Android App - Link will open Google Play');">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M3.609 1.814L13.792 12 3.61 22.186a2.034 2.034 0 0 1-.225-1.127V2.941c0-.41.078-.795.224-1.127zm11.24 11.243l2.364 2.364-11.7 6.643 9.336-9.007zm2.364-2.364L3.75 3.738l11.7 6.643 1.763.312zm.987.986l2.84 1.614a1.353 1.353 0 0 1 0 2.346l-2.84 1.614-2.022-2.787 2.022-2.787z"/>
+          </svg>
+          <div class="badge-text-wrap">
+            <span class="badge-small-text">GET IT ON</span>
+            <span class="badge-large-text">Google Play</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div class="toast" id="appToast">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#FFD400" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+    <span class="toast-message">Notification</span>
+  </div>
+
+  <!-- Scripts (Pure Vanilla JS + GSAP) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="/script.js"></script>
+<script type="module" src="/index.tsx"></script>
+</body>
+</html>
