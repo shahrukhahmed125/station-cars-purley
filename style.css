@@ -2729,6 +2729,53 @@ button, input, select, textarea {
   transform: rotate(180deg);
 }
 
+/* Feature Highlights Grid (Airport Transfers Page) */
+.feature-highlights-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+  margin-bottom: 40px;
+}
+
+.feature-highlight-card {
+  background: #FFFFFF;
+  border: 1px solid #DCE6EE;
+  border-radius: 14px;
+  padding: 20px;
+  box-shadow: 0 4px 14px rgba(6, 52, 91, 0.04);
+  transition: var(--transition);
+}
+
+.feature-highlight-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(6, 52, 91, 0.1);
+}
+
+.feature-icon-wrap {
+  width: 42px;
+  height: 42px;
+  border-radius: 10px;
+  background: #EDF4FA;
+  color: #073B66;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+
+.feature-title {
+  font-weight: 700;
+  color: var(--color-navy);
+  font-size: 15px;
+  margin-bottom: 4px;
+}
+
+.feature-desc {
+  color: #5B7286;
+  font-size: 13px;
+  line-height: 1.4;
+}
+
 /* Responsive Overrides for Subpages */
 @media (max-width: 1024px) {
   .services-full-grid,
@@ -2743,6 +2790,10 @@ button, input, select, textarea {
   .info-columns-grid,
   .contact-layout-grid {
     grid-template-columns: 1fr;
+  }
+
+  .feature-highlights-grid {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
@@ -2767,5 +2818,10 @@ button, input, select, textarea {
 
   .contact-card-box {
     padding: 20px;
+  }
+
+  .feature-highlights-grid {
+    grid-template-columns: 1fr;
+    gap: 14px;
   }
 }
