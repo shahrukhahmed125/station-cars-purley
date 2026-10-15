@@ -1935,7 +1935,7 @@ button, input, select, textarea {
 
 @media (max-width: 768px) {
   .booking-section-wrapper {
-    display: none !important;
+    /* display: none !important; */
   }
 
   .fleet-section {
