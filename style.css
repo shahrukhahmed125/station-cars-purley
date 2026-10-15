@@ -973,6 +973,7 @@ button, input, select, textarea {
   cursor: pointer;
   transition: var(--transition-smooth);
   text-decoration: none;
+  padding: 10px 24px;
 }
 
 .btn-cta:hover {
