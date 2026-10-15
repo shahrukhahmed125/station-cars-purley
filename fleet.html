@@ -166,45 +166,38 @@
       </div>
 
       <!-- Fleet Detailed Grid -->
-      <div style="display:flex; flex-direction:column; gap:36px;">
+      <div class="fleet-detailed-list">
         
         <!-- 1. Saloon Cars -->
-        <div style="background:#FFFFFF; border:1.5px solid #DCE6EE; border-radius:20px; overflow:hidden; box-shadow:0 8px 30px rgba(6,52,91,0.06); display:grid; grid-template-columns:360px 1fr; transition:transform 0.3s ease;">
-          <div style="background:linear-gradient(180deg, #EBF3F9, #F5F9FD); display:flex; align-items:center; justify-content:center; padding:20px;">
-            <img src="/assets/images/fleet_saloon.jpg" alt="Saloon Car" style="max-width:100%; height:auto; filter:drop-shadow(0 10px 20px rgba(0,0,0,0.18)); border-radius:8px;" />
+        <div class="fleet-detail-card">
+          <div class="fleet-detail-image">
+            <img src="/assets/images/fleet_saloon.jpg" alt="Saloon Car" />
           </div>
-          <div style="padding:32px; display:flex; flex-direction:column; justify-content:space-between;">
-            <div>
-              <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:10px;">
-                <h2 style="font-size:26px; font-weight:800; color:var(--color-navy); margin:0;">Saloon Cars</h2>
-                <span style="background:#EBF3F9; color:#073B66; font-size:12px; font-weight:800; padding:4px 10px; border-radius:6px;">MOST POPULAR</span>
+          <div class="fleet-detail-content">
+            <div class="fleet-detail-main">
+              <div class="fleet-detail-header">
+                <h2 class="fleet-detail-title">Saloon Cars</h2>
+                <span class="fleet-badge fleet-badge-popular">MOST POPULAR</span>
               </div>
-              <p style="color:#5B7286; font-size:14.5px; line-height:1.6; margin-bottom:18px;">
+              <p class="fleet-detail-desc">
                 Our standard saloons (Mercedes C-Class, VW Passat, Toyota) deliver exceptional comfort and reliability for solo business commuters, couples, and swift London airport departures.
               </p>
-              <div style="display:flex; gap:20px; flex-wrap:wrap; margin-bottom:20px;">
-                <div style="display:flex; align-items:center; gap:8px; font-size:13.5px; color:#06345B; font-weight:700;">
-                  <span>👥 Up to 4 Passengers</span>
-                </div>
-                <div style="display:flex; align-items:center; gap:8px; font-size:13.5px; color:#06345B; font-weight:700;">
-                  <span>⚖️ 23 Kg</span>
-                </div>
-                <div style="display:flex; align-items:center; gap:8px; font-size:13.5px; color:#06345B; font-weight:700;">
-                  <span>💼  2 Large Cases </span>
-                </div>
+              <div class="fleet-detail-specs">
+                <div class="fleet-spec-item">👥 Up to 4 Passengers</div>
+                <div class="fleet-spec-item">⚖️ 23 Kg</div>
+                <div class="fleet-spec-item">💼 2 Large Cases</div>
               </div>
-              <div style="display:flex; gap:12px; flex-wrap:wrap; font-size:13px; color:#4B647A;">
-                <span>&#10003; Dual Climate Control</span> &bull; 
-                <span>&#10003; Flight Radar Tracking</span> &bull; 
+              <div class="fleet-detail-features">
+                <span>&#10003; Dual Climate Control</span> &bull;
+                <span>&#10003; Flight Radar Tracking</span> &bull;
                 <span>&#10003; Phone Chargers Onboard</span>
               </div>
             </div>
-            <div style="margin-top:24px; padding-top:20px; border-top:1px solid #EDF3F8; display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:16px;">
-              <div>
-                <span style="font-size:12px; color:#5B7286; font-weight:600;">Gatwick Transfers From</span>
-                <!-- <div style="font-size:26px; font-weight:800; color:#073B66;">£36.00 <span style="font-size:14px; font-weight:500; color:#5B7286;">fixed fare</span></div> -->
+            <div class="fleet-detail-footer">
+              <div class="fleet-detail-price">
+                <span class="price-label">Gatwick Transfers From</span>
               </div>
-              <button type="button" class="btn-cta btn-cta-yellow action-book-online-btn" style="padding:10px 24px;">
+              <button type="button" class="btn-cta btn-cta-yellow action-book-online-btn">
                 Select Saloon Car
               </button>
             </div>
@@ -212,42 +205,35 @@
         </div>
 
         <!-- 2. Executive Cars -->
-        <div style="background:#FFFFFF; border:1.5px solid #DCE6EE; border-radius:20px; overflow:hidden; box-shadow:0 8px 30px rgba(6,52,91,0.06); display:grid; grid-template-columns:360px 1fr; transition:transform 0.3s ease;">
-          <div style="background:linear-gradient(180deg, #EBF3F9, #F5F9FD); display:flex; align-items:center; justify-content:center; padding:20px;">
-            <img src="/assets/images/fleet_executive.jpg" alt="Executive Car" style="max-width:100%; height:auto; filter:drop-shadow(0 10px 20px rgba(0,0,0,0.18)); border-radius:8px;" />
+        <div class="fleet-detail-card">
+          <div class="fleet-detail-image">
+            <img src="/assets/images/fleet_executive.jpg" alt="Executive Car" />
           </div>
-          <div style="padding:32px; display:flex; flex-direction:column; justify-content:space-between;">
-            <div>
-              <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:10px;">
-                <h2 style="font-size:26px; font-weight:800; color:var(--color-navy); margin:0;"> Estate   / Executive Cars</h2>
-                <span style="background:#073B66; color:#FFD400; font-size:12px; font-weight:800; padding:4px 10px; border-radius:6px;">VIP CHAUFFEUR</span>
+          <div class="fleet-detail-content">
+            <div class="fleet-detail-main">
+              <div class="fleet-detail-header">
+                <h2 class="fleet-detail-title">Estate / Executive Cars</h2>
+                <span class="fleet-badge fleet-badge-vip">VIP CHAUFFEUR</span>
               </div>
-              <p style="color:#5B7286; font-size:14.5px; line-height:1.6; margin-bottom:18px;">
+              <p class="fleet-detail-desc">
                 Premium German engineering featuring the Mercedes-Benz E-Class &amp; BMW 5-Series. Crafted for executives, corporate delegations, VIP guests, and discerning travelers requiring supreme comfort.
               </p>
-              <div style="display:flex; gap:20px; flex-wrap:wrap; margin-bottom:20px;">
-                <div style="display:flex; align-items:center; gap:8px; font-size:13.5px; color:#06345B; font-weight:700;">
-                  <span>👥 Up to 4 Passengers</span>
-                </div>
-                <div style="display:flex; align-items:center; gap:8px; font-size:13.5px; color:#06345B; font-weight:700;">
-                  <span>⚖️ 23 Kg</span>
-                </div>
-                <div style="display:flex; align-items:center; gap:8px; font-size:13.5px; color:#06345B; font-weight:700;">
-                  <span>💼 3 Large Cases </span>
-                </div>
+              <div class="fleet-detail-specs">
+                <div class="fleet-spec-item">👥 Up to 4 Passengers</div>
+                <div class="fleet-spec-item">⚖️ 23 Kg</div>
+                <div class="fleet-spec-item">💼 3 Large Cases</div>
               </div>
-              <div style="display:flex; gap:12px; flex-wrap:wrap; font-size:13px; color:#4B647A;">
-                <span>&#10003; Full Leather Interior</span> &bull; 
-                <span>&#10003; Privacy Glass &amp; Ambient Lighting</span> &bull; 
+              <div class="fleet-detail-features">
+                <span>&#10003; Full Leather Interior</span> &bull;
+                <span>&#10003; Privacy Glass &amp; Ambient Lighting</span> &bull;
                 <span>&#10003; Complimentary Mineral Water</span>
               </div>
             </div>
-            <div style="margin-top:24px; padding-top:20px; border-top:1px solid #EDF3F8; display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:16px;">
-              <div>
-                <span style="font-size:12px; color:#5B7286; font-weight:600;">Gatwick Transfers From</span>
-                <!-- <div style="font-size:26px; font-weight:800; color:#073B66;">£50.00 <span style="font-size:14px; font-weight:500; color:#5B7286;">fixed fare</span></div> -->
+            <div class="fleet-detail-footer">
+              <div class="fleet-detail-price">
+                <span class="price-label">Gatwick Transfers From</span>
               </div>
-              <button type="button" class="btn-cta btn-cta-yellow action-book-online-btn" style="padding:10px 24px;">
+              <button type="button" class="btn-cta btn-cta-yellow action-book-online-btn">
                 Select Executive Car
               </button>
             </div>
@@ -255,42 +241,35 @@
         </div>
 
         <!-- 3. 6-7 Seater MPVs -->
-        <div style="background:#FFFFFF; border:1.5px solid #DCE6EE; border-radius:20px; overflow:hidden; box-shadow:0 8px 30px rgba(6,52,91,0.06); display:grid; grid-template-columns:360px 1fr; transition:transform 0.3s ease;">
-          <div style="background:linear-gradient(180deg, #EBF3F9, #F5F9FD); display:flex; align-items:center; justify-content:center; padding:20px;">
-            <img src="/assets/images/fleet_mpv.jpg" alt="7 Seater MPV" style="max-width:100%; height:auto; filter:drop-shadow(0 10px 20px rgba(0,0,0,0.18)); border-radius:8px;" />
+        <div class="fleet-detail-card">
+          <div class="fleet-detail-image">
+            <img src="/assets/images/fleet_mpv.jpg" alt="7 Seater MPV" />
           </div>
-          <div style="padding:32px; display:flex; flex-direction:column; justify-content:space-between;">
-            <div>
-              <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:10px;">
-                <h2 style="font-size:26px; font-weight:800; color:var(--color-navy); margin:0;">Standard MPV</h2>
-                <span style="background:#EDF4FA; color:#073B66; font-size:12px; font-weight:800; padding:4px 10px; border-radius:6px;">FAMILY &amp; LUGGAGE</span>
+          <div class="fleet-detail-content">
+            <div class="fleet-detail-main">
+              <div class="fleet-detail-header">
+                <h2 class="fleet-detail-title">Standard MPV</h2>
+                <span class="fleet-badge fleet-badge-family">FAMILY &amp; LUGGAGE</span>
               </div>
-              <p style="color:#5B7286; font-size:14.5px; line-height:1.6; margin-bottom:18px;">
+              <p class="fleet-detail-desc">
                 Ideal for family vacations, overseas trips with heavy baggage, and golf retreats. Offers elevated passenger seating, wide rear access, and configurable cargo space.
               </p>
-              <div style="display:flex; gap:20px; flex-wrap:wrap; margin-bottom:20px;">
-                <div style="display:flex; align-items:center; gap:8px; font-size:13.5px; color:#06345B; font-weight:700;">
-                  <span>👥 Up to 4–5 Passengers</span>
-                </div>
-                <div style="display:flex; align-items:center; gap:8px; font-size:13.5px; color:#06345B; font-weight:700;">
-                  <span>⚖️ 23 Kg</span>
-                </div>
-                <div style="display:flex; align-items:center; gap:8px; font-size:13.5px; color:#06345B; font-weight:700;">
-                  <span>💼 4 Large Cases</span>
-                </div>
+              <div class="fleet-detail-specs">
+                <div class="fleet-spec-item">👥 Up to 4–5 Passengers</div>
+                <div class="fleet-spec-item">⚖️ 23 Kg</div>
+                <div class="fleet-spec-item">💼 4 Large Cases</div>
               </div>
-              <div style="display:flex; gap:12px; flex-wrap:wrap; font-size:13px; color:#4B647A;">
-                <span>&#10003; High Headroom &amp; Legroom</span> &bull; 
-                <span>&#10003; ISOFIX Child Seat Mounts</span> &bull; 
+              <div class="fleet-detail-features">
+                <span>&#10003; High Headroom &amp; Legroom</span> &bull;
+                <span>&#10003; ISOFIX Child Seat Mounts</span> &bull;
                 <span>&#10003; Sliding Passenger Doors</span>
               </div>
             </div>
-            <div style="margin-top:24px; padding-top:20px; border-top:1px solid #EDF3F8; display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:16px;">
-              <div>
-                <span style="font-size:12px; color:#5B7286; font-weight:600;">Gatwick Transfers From</span>
-                <!-- <div style="font-size:26px; font-weight:800; color:#073B66;">£55.00 <span style="font-size:14px; font-weight:500; color:#5B7286;">fixed fare</span></div> -->
+            <div class="fleet-detail-footer">
+              <div class="fleet-detail-price">
+                <span class="price-label">Gatwick Transfers From</span>
               </div>
-              <button type="button" class="btn-cta btn-cta-yellow action-book-online-btn" style="padding:10px 24px;">
+              <button type="button" class="btn-cta btn-cta-yellow action-book-online-btn">
                 Select 6–7 MPV
               </button>
             </div>
@@ -298,41 +277,35 @@
         </div>
 
         <!-- 4. 8 Seater Minibuses -->
-        <div style="background:#FFFFFF; border:1.5px solid #DCE6EE; border-radius:20px; overflow:hidden; box-shadow:0 8px 30px rgba(6,52,91,0.06); display:grid; grid-template-columns:360px 1fr; transition:transform 0.3s ease;">
-          <div style="background:linear-gradient(180deg, #EBF3F9, #F5F9FD); display:flex; align-items:center; justify-content:center; padding:20px;">
-            <img src="/assets/images/fleet_minibus.jpg" alt="8 Seater Minibus" style="max-width:100%; height:auto; filter:drop-shadow(0 10px 20px rgba(0,0,0,0.18)); border-radius:8px;" />
+        <div class="fleet-detail-card">
+          <div class="fleet-detail-image">
+            <img src="/assets/images/fleet_minibus.jpg" alt="8 Seater Minibus" />
           </div>
-          <div style="padding:32px; display:flex; flex-direction:column; justify-content:space-between;">
-            <div>
-              <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:10px;">
-                <h2 style="font-size:26px; font-weight:800; color:var(--color-navy); margin:0;">8 Seater Minibuses</h2>
-                <span style="background:#041D34; color:#FFFFFF; font-size:12px; font-weight:800; padding:4px 10px; border-radius:6px;">GROUP TRAVEL</span>
+          <div class="fleet-detail-content">
+            <div class="fleet-detail-main">
+              <div class="fleet-detail-header">
+                <h2 class="fleet-detail-title">8 Seater Minibuses</h2>
+                <span class="fleet-badge fleet-badge-group">GROUP TRAVEL</span>
               </div>
-              <p style="color:#5B7286; font-size:14.5px; line-height:1.6; margin-bottom:18px;">
+              <p class="fleet-detail-desc">
                 The ultimate solution for extended parties, corporate conferences, and international airport groups. Cavernous luggage capacity ensures zero bags inside the passenger cabin.
               </p>
-              <div style="display:flex; gap:20px; flex-wrap:wrap; margin-bottom:20px;">
-                <div style="display:flex; align-items:center; gap:8px; font-size:13.5px; color:#06345B; font-weight:700;">
-                  <span>👥 Up to 8 Passengers</span>
-                </div>
-                <div style="display:flex; align-items:center; gap:8px; font-size:13.5px; color:#06345B; font-weight:700;">
-                  <span>⚖️ 23 Kg</span>
-                </div>
-                <div style="display:flex; align-items:center; gap:8px; font-size:13.5px; color:#06345B; font-weight:700;">
-                  <span>💼 8 Large Cases</span>
-                </div>
+              <div class="fleet-detail-specs">
+                <div class="fleet-spec-item">👥 Up to 8 Passengers</div>
+                <div class="fleet-spec-item">⚖️ 23 Kg</div>
+                <div class="fleet-spec-item">💼 8 Large Cases</div>
               </div>
-              <div style="display:flex; gap:12px; flex-wrap:wrap; font-size:13px; color:#4B647A;">
-                <span>&#10003; Extended Cargo Hold</span> &bull; 
-                <span>&#10003; Independent Rear AC</span> &bull; 
+              <div class="fleet-detail-features">
+                <span>&#10003; Extended Cargo Hold</span> &bull;
+                <span>&#10003; Independent Rear AC</span> &bull;
                 <span>&#10003; Privacy Windows</span>
               </div>
             </div>
-            <div style="margin-top:24px; padding-top:20px; border-top:1px solid #EDF3F8; display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:16px;">
-              <div>
-                <span style="font-size:12px; color:#5B7286; font-weight:600;">Gatwick Transfers From</span>
+            <div class="fleet-detail-footer">
+              <div class="fleet-detail-price">
+                <span class="price-label">Gatwick Transfers From</span>
               </div>
-              <button type="button" class="btn-cta btn-cta-yellow action-book-online-btn" style="padding:10px 24px;">
+              <button type="button" class="btn-cta btn-cta-yellow action-book-online-btn">
                 Select 8 Seater Minibus
               </button>
             </div>
